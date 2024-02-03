@@ -1,0 +1,170 @@
+
+.mainCat{
+  margin: 10px auto;
+  width: 70%;
+  padding-bottom: 50px;
+  min-height: 80vh;
+}
+
+.appsDiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.categories{
+    border: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.categories:hover{
+  color: rgb(95, 95, 95);
+}
+.gamesDiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.childApp img{
+  width: 80px;
+}
+
+.childApp{
+  text-align: center;
+  padding: 10px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.childApp:hover{
+  background-color: rgb(200, 202, 202);
+}
+
+/* .mainCat .topAppsGames{
+  background-color: blueviolet;
+} */
+
+.topAppsGames_main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.flex_Dis{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.topAppsGames_child{
+  width: 49%;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.topAppsGames_main .topAppsGames_child{
+  border-bottom: 1px solid #d3d2d2;
+}
+
+.topAppsGames_main .topAppsGames_child:hover{
+  background-color: rgb(200, 202, 202);
+}
+.topAppsGames_child img{
+  width: 80px;
+}
+
+.topAppsGames_child button{
+  border: none;
+  padding: 5px;
+  width: 60px;
+  border-radius: 10px;
+  color: rgb(47, 0, 255);
+}
+.topAppsGames_child button:hover{
+  color: antiquewhite;
+  background-color: rgb(47, 0, 255);
+}
+.topAppsGames_child p{
+  line-height: 0.5;
+}
+
+.footer{
+  background-color: rgb(214, 212, 212);
+  text-align: center;
+  padding: 17px;
+
+}
+
+.full_W{
+  width: 100%;
+ }
+
+.marg_L{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.imgCatalog{
+  text-align: center;
+  margin: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #eee9e9;
+
+}
+
+.updatSection{
+  padding: 10px 10px 40px 10px;
+  border-bottom: 1px solid #eee9e9;
+}
+
+.descriptionSection{
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid #eee9e9;
+  margin-bottom: 10px;
+}
+
+.mainCat h5{
+  color: rgb(85, 84, 84);
+}
+
+.mainCat .updatSection,.descriptionSection p{
+  color: rgb(159, 159, 161);
+} 
+
+.aboutSection{
+  margin-bottom: 30px;
+}
+.abouteDetails{
+  width: 45%;
+  border-bottom: 1px solid #e6e3e3;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.CategorieType span{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.CategorieType_ithems{
+  margin-top: 20px;
+}
+
+.CategorieType_ithems span{
+  margin-right: 20px;
+  cursor: pointer;
+}
